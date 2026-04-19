@@ -39,7 +39,7 @@ def decrypt(text):
 
     return "".join(result).strip()
 
-    def print_square():
+def print_square():
     print("\nPolybius Square:")
     print("    1  2  3  4  5")
     alphabet = "ABCDEFGHIKLMNOPQRSTUVWXYZ"
@@ -49,9 +49,9 @@ def decrypt(text):
     print()
 
 def main():
-    print("=" * 40)
+    print("*" * 40)
     print("     Polybius Square Cipher")
-    print("=" * 40)
+    print("*" * 40)
     print_square()
 
     while True:
